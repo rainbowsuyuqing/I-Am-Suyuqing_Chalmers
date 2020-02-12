@@ -7,6 +7,15 @@
     <title>Redsign of printer</title>
     <!-- Bootstrap -->
     <link href="./bootstrap-4.3.1.css" rel="stylesheet">
+ <script>
+      window.onload=function () {
+        window.onkeypress=function (e) {
+          if (e.keyCode===113){
+            window.location.href="index.html";
+          }
+        }
+      }
+    </script>
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
   </head>
   <body style="background-color: lightblue">
@@ -40,6 +49,14 @@
           </div>
         </li>
       </ul>
+ <i class="fa fa-hand-o-right" aria-hidden="true" style="color: white;">press Q on keyboard to back to Home</i>
+      <button style="background-color: transparent;border-color: transparent" onclick="window.location.href='index.html'"
+              onkeypress="">
+        <img src="./Surio/100.gif" style="float: right" alt="press Q on keyboard to back to game"></button>
+    </div>
+  </nav>
+
+
     </div>
   </nav>
 
@@ -58,6 +75,12 @@
 <div class="center">
     <p class="text-center"><img class="img-fluid" src="./image/redesign/td3.png" alt="" width="100%"></p><br>
     <p class="text-center"><img class="img-fluid" src="./image/redesign/td2.png" alt="" width="100%"></p><br>
+ <h2 align=center><i class="fa fa-hand-o-right" aria-hidden="true" style="color: white; float:center"></i>
+      <button style="background-color: transparent;border-color: transparent; float:center" onclick="window.location.href='index.html'"
+      onkeypress="">
+        <img src="./Surio/100.gif" style="float: right" alt="Press Q on keyboard to back to game"></button>
+<i aria-hidden="true" style="color: white; float:center">Press "Q" to go back to Home</i>
+</h2>
     <hr>
 </div>
     <div class="section">
